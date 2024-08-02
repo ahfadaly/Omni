@@ -18,7 +18,6 @@ body {
 }
 button:focus,
 a:focus,
-input:focus,
 textarea:focus {
   box-shadow: none !important;
   outline: none;
@@ -34,8 +33,8 @@ textarea:focus {
 }
 @media (max-width: 991px) {
   .text-h2 {
-    font-size: 35px !important;
-    line-height: 60px;
+    font-size: 30px !important;
+    line-height: 40px;
   }
 }
 /* start header ------- */
@@ -277,3 +276,39 @@ textarea:focus {
   text-decoration: none;
 }
 /* end footer -------- */
+
+/* login page ============== */
+.login .title p {
+  font-size: 30.9px;
+  font-weight: 600;
+  color: #393838;
+}
+.login form label {
+  font-size: 25px;
+  font-weight: 600;
+  line-height: 50px;
+  color: #101828;
+}
+.login form input {
+  background-color: #f1f1f1;
+  border: 0;
+}
+.login form button {
+  background-color: var(--main-color);
+}
+
+.login .checkbox label {
+  font-size: 20px;
+}
+.login .checkbox input {
+  vertical-align: inherit;
+}
+@media (max-width: 991px) {
+  .login .title p {
+    font-size: 22px;
+    line-height: 30px;
+  }
+  .login form label {
+    font-size: 20px;
+  }
+}
